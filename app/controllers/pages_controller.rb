@@ -1,11 +1,14 @@
 class PagesController < ApplicationController
-  def file
+  def members
   end
 
-  def Report
+  def reports
   end
 
-  def Providers
+  def providers
+  end
+
+  def policies
   end
 
   def help

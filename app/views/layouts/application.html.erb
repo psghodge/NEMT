@@ -7,13 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<%= link_to "File", root_path %>
-	<%= link_to "Report", report_path %>
-	<%= link_to "Providers", providers_path %>
-	<%= link_to "Help", help_path %>
 
-
-<%= yield %>
+	<%= render 'layouts/header' %>
+   <%= yield %>
 
 </body>
 </html>
